@@ -1,0 +1,19 @@
+
+<head>
+  <title>Photos</title>
+</head>
+<h1 class="center padding2 red"> Photos </h1>
+
+<div class="container">
+  <div class="row"  *ngFor="let single of result; let i=index" >
+    <div class="col-xl-4" *ngif="i<9" >
+      <div class="card liner"> 
+          <div class="card-body">
+            <div class="card-text center"> <b> {{result[i]['title']}} </b> </div>
+            <img class="card-img-top" src="{{result[i]['url']}}">
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+

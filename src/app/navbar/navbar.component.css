@@ -1,0 +1,47 @@
+.height1
+ {
+ 	height: 50px;
+ }
+ .bg-dark1 {
+    background-color: #000000;
+    }
+
+ nav-link2 {
+    display: block;
+    padding-top: .5rem;
+    padding-right: 40px;
+ }
+
+ .navbarr {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+ }
+ .padding
+ {
+ 	padding-top: 12px;
+ }
+ .padding1
+ {
+ 	padding-left: 30px;
+ }
+ a
+ {
+ 	color: white;
+ }
+
+ a:hover
+{
+	text-decoration: none;
+}
+.image1
+{ padding-top: 10px;
+	width:150px;
+	height: 65px;
+}
+
+.red
+{
+    color: #E03528;
+}
+
